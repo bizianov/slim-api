@@ -18,12 +18,12 @@ public class CustomerController {
         this.service = service;
     }
 
-    @RequestMapping(value = "/customers")
+    @RequestMapping(value = "/customers", method = RequestMethod.GET)
     public List<Customer> allCustomers() {
         return service.findAll();
     }
 
-    @RequestMapping(value = "/customer/{id}")
+    @RequestMapping(value = "/customer/{id}", method = RequestMethod.GET)
     public Customer getCustomer(@PathVariable int id) {
         return service.findOne(id);
     }
