@@ -1,0 +1,1 @@
+insert into customer (first_name, last_name, email, phone, city, street, house) values ('Viacheslav', 'Bizianov', 'viacheslav.bizianov@gmail.com', '0506306436', 'Kiev', 'Bazhana', 23)

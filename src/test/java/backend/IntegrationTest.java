@@ -32,9 +32,9 @@ public class IntegrationTest {
     private CustomerService service;
 
     private List<Customer> allCustomers = Arrays.asList(
-            new Customer(1, "FirstName1","LastName1","email1","phone1",
+            new Customer("FirstName1","LastName1","email1","phone1",
                     "city1","street1",10),
-            new Customer(2,"FirstName2","LastName2","email2","phone2",
+            new Customer("FirstName2","LastName2","email2","phone2",
                     "city2","street2",20));
 
     @Before
